@@ -1,0 +1,15 @@
+<svg id="Linked_in" data-name="Linked in" xmlns="http://www.w3.org/2000/svg" width="53.58" height="53.58" viewBox="0 0 53.58 53.58">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="Path_103" data-name="Path 103" class="cls-1" d="M26.79,0A26.79,26.79,0,1,0,53.58,26.79,26.79,26.79,0,0,0,26.79,0Zm0,51.794A25,25,0,1,1,49.277,15.842,24.511,24.511,0,0,1,51.794,26.79,25.033,25.033,0,0,1,26.79,51.794Zm0,0" transform="translate(0 0)"/>
+  <g id="linkedin" transform="translate(12.768 12.769)">
+    <path id="Path_99" data-name="Path 99" class="cls-1" d="M26.58,26.739h.007V16.468c0-5.024-1.082-8.894-6.955-8.894a6.1,6.1,0,0,0-5.492,3.018h-.082V8.043H8.489v18.7h5.8V17.481c0-2.437.462-4.794,3.48-4.794,2.974,0,3.018,2.782,3.018,4.951v9.1Z" transform="translate(1.416 1.263)"/>
+    <path id="Path_100" data-name="Path 100" class="cls-1" d="M.4,7.977H6.2v18.7H.4Z" transform="translate(0.066 1.33)"/>
+    <path id="Path_101" data-name="Path 101" class="cls-1" d="M3.363,0A3.378,3.378,0,1,0,6.725,3.363,3.364,3.364,0,0,0,3.363,0Z"/>
+  </g>
+</svg>
