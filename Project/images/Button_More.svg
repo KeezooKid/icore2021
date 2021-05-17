@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="74" height="74" viewBox="0 0 74 74">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Button_More" transform="translate(-714 -572)">
+    <path id="Icon_Chevron_down" data-name="Icon Chevron down" class="cls-1" d="M27.1,5.236,16.4,16.119a2.936,2.936,0,0,1-2.415.846,2.945,2.945,0,0,1-2.418-.846L.866,5.236A3.123,3.123,0,0,1,.866.88a2.992,2.992,0,0,1,4.279,0l8.836,8.99L22.814.88A3,3,0,0,1,27.1.88,3.123,3.123,0,0,1,27.1,5.236Z" transform="translate(737.02 601.021)"/>
+    <g id="Ellipse_8" data-name="Ellipse 8" class="cls-2" transform="translate(714 572)">
+      <circle class="cls-3" cx="37" cy="37" r="37"/>
+      <circle class="cls-4" cx="37" cy="37" r="36"/>
+    </g>
+  </g>
+</svg>

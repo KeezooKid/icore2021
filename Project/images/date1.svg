@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="346" height="58" viewBox="0 0 346 58">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: rgba(255,255,255,0.6);
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2, .cls-3, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-5 {
+        font-size: 14px;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: OpenSans-SemiBold, Open Sans;
+        font-weight: 600;
+      }
+
+      .cls-3 {
+        font-size: 24px;
+      }
+
+      .cls-4, .cls-7 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-5 {
+        font-family: SourceCodePro-Regular, Source Code Pro;
+      }
+
+      .cls-6 {
+        stroke: none;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.028" y1="0.068" x2="0.981" y2="0.874" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.051"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_95" data-name="Group 95" transform="translate(-1177 -362)">
+    <g id="Rectangle_171" data-name="Rectangle 171" class="cls-1" transform="translate(1177 362)">
+      <rect class="cls-6" width="346" height="58" rx="20"/>
+      <rect class="cls-7" x="0.5" y="0.5" width="345" height="57" rx="19.5"/>
+    </g>
+    <g id="Important_dates" data-name="Important dates" transform="translate(1207 366)">
+      <text id="JUN" class="cls-2" transform="translate(1 45)"><tspan x="0" y="0">JUN</tspan></text>
+      <text id="_15" data-name="15" class="cls-3" transform="translate(0 26)"><tspan x="0" y="0">15</tspan></text>
+      <text id="_15-2" data-name="15" class="cls-3" transform="translate(62 26)"><tspan x="0" y="0">15</tspan></text>
+      <text id="AUG" class="cls-2" transform="translate(62 45)"><tspan x="0" y="0">AUG</tspan></text>
+      <g id="arrow-right" transform="translate(39 17)">
+        <line id="Line_8" data-name="Line 8" class="cls-4" x1="12" transform="translate(0 5)"/>
+        <line id="Line_9" data-name="Line 9" class="cls-4" x1="4" y2="5" transform="translate(8 5)"/>
+        <line id="Line_10" data-name="Line 10" class="cls-4" x1="4" y1="5" transform="translate(8)"/>
+      </g>
+    </g>
+    <text id="Call_for_Papers" data-name="Call for Papers" class="cls-5" transform="translate(1493 395)"><tspan x="-126" y="0">Call for Papers</tspan></text>
+  </g>
+</svg>

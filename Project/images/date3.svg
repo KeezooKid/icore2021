@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="346" height="58" viewBox="0 0 346 58">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: rgba(255,255,255,0.6);
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 24px;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: OpenSans-SemiBold, Open Sans;
+        font-weight: 600;
+      }
+
+      .cls-3, .cls-4 {
+        font-size: 14px;
+      }
+
+      .cls-4 {
+        font-family: SourceCodePro-Regular, Source Code Pro;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+
+      .cls-6 {
+        fill: none;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.028" y1="0.068" x2="0.981" y2="0.874" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.051"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_97" data-name="Group 97" transform="translate(-1177 -497)">
+    <g id="Rectangle_168" data-name="Rectangle 168" class="cls-1" transform="translate(1177 497)">
+      <rect class="cls-5" width="346" height="58" rx="20"/>
+      <rect class="cls-6" x="0.5" y="0.5" width="345" height="57" rx="19.5"/>
+    </g>
+    <g id="Important_dates" data-name="Important dates" transform="translate(1145 502)">
+      <text id="_01" data-name="01" class="cls-2" transform="translate(62 26)"><tspan x="0" y="0">01</tspan></text>
+      <text id="OCT" class="cls-3" transform="translate(62 45)"><tspan x="0" y="0">OCT</tspan></text>
+    </g>
+    <text id="Submission_of_Revised_Paper" data-name="Submission of Revised Paper" class="cls-4" transform="translate(1493 531)"><tspan x="-226.8" y="0">Submission of Revised Paper</tspan></text>
+  </g>
+</svg>
