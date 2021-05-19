@@ -333,9 +333,9 @@ div {
     backdrop-filter: blur( 40px );
     -webkit-backdrop-filter: blur( 40px );
     border: 1px solid white;
-    height: 20%;
+    height: 18%;
     margin-left:9.1%;
-    margin-right: 9.2%;
+    margin-right: 9.05%;
     margin-top: 5%;
     border-radius: 25px;
     }
@@ -349,14 +349,15 @@ div {
         width: 25%;
     }
     footer{
-      border: 1px solid white;
       margin-top: 10%;
-      height: 20%
+      height: 20%;
+      margin-right: 9.05%;
+      margin-left: 9.1%;
     }
 
-    .footer{
+    .footerr{
       height: 65%;
-      margin-top: 0;
+      margin: 0;
     }
 
     .speakers {
@@ -375,7 +376,7 @@ div {
 
     .partnerss {
       margin-left: 9.1%;
-      margin-right: 9.2%;
+      margin-right: 9.05%;
       height: 20%;
     }
 
