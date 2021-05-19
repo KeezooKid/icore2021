@@ -328,14 +328,14 @@ div {
     border-radius: 15px;
   }
 
-  .banner{
+  .banner {
     background: rgba( 255, 255, 255, 0.25 );
     backdrop-filter: blur( 40px );
     -webkit-backdrop-filter: blur( 40px );
     border: 1px solid white;
     height: 18%;
     margin-left:9.1%;
-    margin-right: 9.05%;
+    margin-right: 9.1%;
     margin-top: 5%;
     border-radius: 25px;
     }
