@@ -17,10 +17,6 @@ header {
 p {
   color: white;
 }
-nav {
-  margin-left:9.1%;
-  margin-right: 8.85%;
-}
 .logo {
   width: 10%;
   height: 70%;
@@ -31,15 +27,16 @@ nav {
 div {
     width: auto;
 }
-
+nav {
+  margin-left:9.1%;
+  margin-right: 8.85%;
+}
 .navbar {
     background-image: linear-gradient(to right, #0d50c4, #10a8b9, #1ec577);
     list-style-type: none;
     overflow: visible;
     position: fixed;
     margin-top: 5%;
-    margin-left: 9.1%;
-    margin-right: 9.2%;
     border: 1px solid white;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -332,7 +329,7 @@ div {
     border-radius: 15px;
   }
 
-  .banner {
+  .banner{
     background: rgba( 255, 255, 255, 0.25 );
     backdrop-filter: blur( 40px );
     -webkit-backdrop-filter: blur( 40px );
@@ -370,8 +367,8 @@ div {
     -webkit-backdrop-filter: none;
       border: none;
       margin-top: 5%;
-      margin-left: 0;
-      margin-right: 0%;
+      margin-left:9.1%;
+      margin-right: 8.85%;
     }
 
     .speakers img {
@@ -379,8 +376,8 @@ div {
     }
 
     .partnerss {
-      margin-left: 9.1%;
-      margin-right: 9.05%;
+      margin-left:9.1%;
+      margin-right: 8.85%;
       height: 20%;
     }
 
@@ -467,10 +464,7 @@ div {
         width: 27%;
         margin-top: 13%;
       }
-.container{
-margin-left: 9%;  
-margin-right: 9%; 
-}
+
   .contain{
     background: rgba( 255, 255, 255, 0.25 );
     backdrop-filter: blur( 40px );
