@@ -17,6 +17,10 @@ header {
 p {
   color: white;
 }
+nav {
+  margin-left:9.1%;
+  margin-right: 8.85%;
+}
 .logo {
   width: 10%;
   height: 70%;
