@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iCoRe-Contact</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Source+Code+Pro" />
+</head>
+<body>
+    <header>
+          <nav>
+           <div class="navbar">
+              <img src="images/icorelogo.svg" class="logo"></img> 
+              <a href="home.html" class="def">HOME</a> 
+              <div class="dropdown">
+                  <a href class="def active">ABOUT<i class="arrow-down"></i></a>
+                  <div class="dropdown-content">
+                    <a href="committee.html">COMMITTEE</a>
+                    <a href="contact.html" class="active">CONTACT</a>
+                  </div>
+                </div>
+              <a href="home.html#speakers" class="def">SPEAKERS</a> 
+              <div class="dropdown">
+                  <a href="workshops.html" class="def">PROGRAM<i class="arrow-down"></i></a>
+                    <div class="dropdown-content second">
+                      <a href="workshops.html">WORKSHOPS</a>
+                      <a href="schedule.html">SCHEDULE</a>
+                  </div>
+                </div>
+              <a href="submission.html" class="def">SUBMISSION</a> 
+              <div class="important">
+                <div class="dates"></div>
+                <div class="datelist">
+                  <a href class="def">VIEW IMPORTANT DATES</a>
+                  <div class="dlist">
+                    <img src="images/date1.svg"/>
+                    <img src="images/date2.svg"/>
+                    <img src="images/date3.svg"/>
+                    <img src="images/date4.svg"/>
+                    <img src="images/date5.svg"/>
+                  </div>
+                </div>
+              </div>
+              <a href="register.html" class="def active" id="register">REGISTER</a> 
+            </div>
+          </nav>
+      </header>
+      <img src="images/wfade.svg" id="wfade1">
+      <img src="images/wfade.svg" id="wfade2">
+      <img src="images/wfade.svg" id="wfade3">
+      <h2>Contacts</h2>
+      <p id="subtitle">Any questions or remarks? Just write us a message!</p>
+      <div class="table"> 
+        <div class="banner info">
+          <h4>Contact Information</h4>
+          <p id="infosub">Fill up the form and our Team will get back<br>to you within 24 hours.</p>
+          <table id="table1">
+            <tr>
+              <td><img src="images/phone.svg" alt=""></td>
+              <td><p>+632 8712-1900</p></td>
+            </tr>
+            <tr>
+              <td><img src="images/mail.svg" alt=""></td>
+              <td><p>nuph@national-edu.ph</p></td>
+            </tr>
+            <tr>
+              <td><img src="images/iconfinder_location_172496.svg" alt=""></td>
+              <td><p>551 M.F. Jhocson St, Sampaloc,<br>Manila, 1008 Metro Manila</p></td>
+            </tr>
+          </table>
+        </div>
+        
+        <div class="contacts">
+            <div id="textdiv">
+              <div><p>First name</p></div>
+              <div><p>Last name</p></div>
+            </div>
+            <div>
+              <div><input type="text" id="fname" name="fname" value=""><br></div>
+              <div><input type="text" id="lname" name="lname" value=""><br></div>
+            </div>
+            <div id="textdiv">
+              <div><p>Email</p></div>
+              <div><p>Phone Number</p></div>
+            </div>
+            <div>
+              <div><input type="text" id="temail" name="temail" value=""><br></div>
+              <div><input type="tel" id="number" name="number" value=""><br></div>
+            </div>
+            <div><p>Message</p></div>
+            <div><input type="text" id="message" name="message" value=""><br><br><br></div>
+            <input type="reset" value="Send Message" onclick="ClearFields()">
+      </div>
+      </div>
+      <footer>
+        <img src="images/lightgreen.svg" id="green">
+        <img src="images/vlightpurpur.svg" id="purp">
+        <div class="banner footerr">
+          <div class="footer home">
+            <div class="title"><a href="home.html">HOME</a></div>
+            <a href="home.html#landing"><p>Landing</p></a>
+            <a href="home.html#theme"><p>Theme</p></a>
+            <a href="home.html#speakers"><p>Plenary Speakers</p></a>
+        </div>
+        <div class="footer work">
+          <div class="title"><a href="workshops.html">PROGRAM</a></div>
+          <a href="schedule.html"><p>Schedule</p></a>
+          <a href="workshops.html"><p>Workshops</p></a>
+        </div>
+        <div class="footer imp">
+          <div class="title"><a href>ABOUT</a></div>
+          <a href="committee.html"><p>Committee</p></a>
+          <a href="contact.html"><p>Contact</p></a>
+        </div>
+        <div class="footer sub">
+          <div class="title"><a href="submission.html">SUBMISSION</a></div>
+          <a href="#submission"><p>Submission</p></a>
+        </div>
+        <div class="footer con">
+          <div class="title"><a>CONNECT WITH NU</a></div>
+          <a href="facebook.com"><img src="images/facebook-f.svg" id="fb"/></a>
+          <a href="twitter.com"><img src="images/twitter.svg" id="twt"/></a>
+        </div>
+        <div class="footer reg">
+          <div class="title"><a href="registration.html">REGISTRATION</a></div>
+          <a href="#registration"><p>registration</p></a>
+        </div>
+        <hr id="footer line">
+        <p id = "creds">© 2021 National University Manila, Philippines. All Rights Reserved.</p>
+      </div>
+      </footer>
+</body>
+<script>
+  function ClearFields()  
+{
+    document.getElementById('fname').value = "";
+    document.getElementById('lname').value = "";
+    document.getElementById('temail').value = "";
+    document.getElementById('number').value = "";
+    document.getElementById('message').value = "";
+}  
+</script>
+</html>
