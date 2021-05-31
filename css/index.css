@@ -229,24 +229,24 @@ nav {
 }
 @keyframes slide{
   0%{
-    background-image: url(images/date2.svg);
+    background-image: url(/images/date2.svg);
     background-size: 100% 100%;
     width: 20%;
   }
   25%{
-    background-image: url(images/date3.svg);
+    background-image: url(/images/date3.svg);
     background-size: 100% 100%;width: 20%;
   }
   50%{
-    background-image: url(images/date4.svg);
+    background-image: url(/images/date4.svg);
     background-size: 100% 100%;width: 20%;
   }
   75%{
-    background-image: url(images/date5.svg);
+    background-image: url(/images/date5.svg);
     background-size: 100% 100%;width: 20%;
   }
   100%{
-    background-image: url(images/date1.svg);
+    background-image: url(/images/date1.svg);
     background-size: 100% 100%;width: 20%;
   }
 }
