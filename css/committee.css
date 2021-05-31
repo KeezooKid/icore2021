@@ -502,6 +502,9 @@ nav {
   margin-right: auto;
  
 }
+#user {
+  width: 100%;
+}
 #user1 {
   margin-left: 5.5%;
 }
