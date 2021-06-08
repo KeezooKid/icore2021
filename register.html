@@ -44,8 +44,29 @@
                   </div>
                 </div>
               </div>
-              <a href="register.html" class="def active" id="register">REGISTER</a> 
+              <a href="register.html" class="def" id="register">REGISTER</a> 
             </div>
+            <div class="menunav">
+              <img src="images/icorelogo.svg" class="logo"></img> 
+              <img href="" src="images/menu.svg" id="menu">
+              <img href="" src="images/xmark.svg" id="menu1">
+              <div id="dropmenu">
+              <a href="home.html" class="def">HOME</a> 
+                  <a href="committee.html"  class="def">ABOUT<i class="arrow-down"></i></a>
+                  <div class="dropmenu-content">
+                    <a href="committee.html">COMMITTEE</a>
+                    <a href="contact.html">CONTACT</a>
+                  </div>
+              <a href="home.html#speakers" class="def">SPEAKERS</a> 
+                  <a href="workshops.html" class="def">PROGRAM<i class="arrow-down"></i></a>
+                    <div class="dropmenu-content">
+                      <a href="workshops.html">WORKSHOPS</a>
+                      <a href="schedule.html">SCHEDULE</a>
+                  </div>
+              <a href="submission.html" class="def">SUBMISSION</a> 
+              <a href="register.html" class="def active">REGISTER</a> 
+              </div>
+          </div>
           </nav>
       </header>
       <h2>Registration</h2>
@@ -139,5 +160,25 @@
         <p id = "creds">© 2021 National University Manila, Philippines. All Rights Reserved.</p>
       </div>
       </footer>
+
+      <script>
+        document.getElementById("menu").onclick = function() {  
+      Show()  
+      };  
+      function Show() {  
+          document.getElementById("menu").style.visibility = "hidden";   
+          document.getElementById("dropmenu").style.visibility = "visible";  
+          document.getElementById("menu1").style.visibility = "visible";  
+      }  
+      
+      document.getElementById("menu1").onclick = function() {  
+      Hide()  
+      };  
+      function Hide() {  
+          document.getElementById("menu").style.visibility = "visible";   
+          document.getElementById("dropmenu").style.visibility = "hidden";  
+          document.getElementById("menu1").style.visibility = "hidden";  
+      }  
+      </script>
 </body>
 </html>

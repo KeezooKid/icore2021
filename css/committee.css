@@ -4,7 +4,7 @@ html {
 body {
     overflow-x: hidden;
     margin: 0;
-    height: 3280px;
+    height: 3310px;
     background-size: auto;
     background-repeat: no-repeat;
     background-color: #0D65FA;
@@ -204,7 +204,7 @@ nav {
   color: white;
   margin-left: 1%;
   background-repeat: no-repeat;
-  transition: 3s;
+   transition: 0s;
   background-size: 100% 100%;
 
   animation-name: slide;
@@ -506,8 +506,8 @@ nav {
   width: 100%;
 }
 #user1 {
-  margin-left: 5.5%;
-    width: 100%;
+  margin-left: 0%;
+  width: 100%;
 }
 #name {
   font-family: "Open Sans";
@@ -559,4 +559,147 @@ nav {
   width: 30%;
   margin-left: 2%;
   margin-top: 25%;
+}
+.menunav {
+  visibility: hidden;
+  overflow: visible;
+  position: fixed;
+  z-index : 10000;
+  top: 13%;
+  width: 81.9%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 10%;
+  background-image: linear-gradient(to right, #0d50c4, #10a8b9, #1ec577);
+  list-style-type: none;
+  border: 1px solid white;
+}
+#menu {
+visibility: hidden;
+opacity: 0;
+width: 3%;
+height: 70%;
+float: right;
+margin-top: 0.9%;
+padding-right:5%;
+display: none;
+}
+#menu1 {
+visibility: hidden;
+width: 2%;
+height: 70%;
+float: right;
+margin-top: 0.7%;
+padding-right: 0%;
+}
+#dropmenu {
+background-image: linear-gradient(to right, #0d50c417, #10a8b96c, #1ec57731);
+  backdrop-filter: blur( 40px );
+  -webkit-backdrop-filter: blur( 40px );
+  visibility: hidden;
+  overflow: visible;
+  position: absolute;
+  top: 95%;
+  border: 1px solid white;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+  font-family: "Open Sans Semibold";
+  font-size: 0.9vw;
+  height: 8%;
+  display: inline-block;
+  width: 97.9%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: auto;
+  list-style-type: none;
+  z-index: 0;
+}
+#dropmenu a:hover{
+text-shadow:  0px 0 20px rgba(255, 255, 255, 0.842);
+}
+#dropmenu .active {
+background-image: linear-gradient(100deg, #0D65FA 1%,#0DA2CE 50%, #0dfb8c );
+border-radius:20px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100% 100%;
+padding: 0.5% 2% 0.5% 2%;
+}
+.menunav a {
+  display: block;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  float: left;
+  margin-left:2%;
+  margin-right:2%;
+  background-size: 100% 100%;
+  padding: 1% 1%;
+  border-radius:20px;
+  margin-top: 1%;
+}
+
+#dropmenu .dropmenu-content {
+display: flex;
+flex-direction: column;
+margin-left: 5%;
+}
+
+
+
+@media only screen and (max-width: 1482px) {
+  html {
+      height: 3300px;
+  }
+  body {
+      height: 3000px;
+  }
+  
+  .menunav {
+      visibility: visible;
+  
+  }
+  #menu {
+    visibility: visible;
+    opacity: 1;
+    display: flex;
+  }
+  
+  .navbar {
+      visibility: hidden;
+  }
+  
+  .important {
+    visibility: hidden;
+  }
+  
+  .dates {
+    visibility: hidden;
+  }
+  
+      .theme{
+        margin-top: 10%;
+        height: 16%;
+      }
+
+      .footerr{
+        height: 77%;
+      }
+      
+        hr {
+          margin-top: 39%;
+        }
+      
+        #creds{
+          margin-top: 2%;
+        }
+
 }
