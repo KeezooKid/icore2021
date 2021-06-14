@@ -44,7 +44,7 @@ position:absolute;
     font-family: "Open Sans Semibold";
     font-size: 0.9vw;
     z-index : 10000;
-    height: 8%;
+    height: 65px;
     display: inline-block;
     width: 80%;
 }
@@ -595,11 +595,8 @@ hr {
   z-index : 10000;
   top: 13%;
   width: 81.9%;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  height: 10%;
+  border-radius: 35px;
+  height: 70px;
   background-image: linear-gradient(to right, #0d50c4, #10a8b9, #1ec577);
   list-style-type: none;
   border: 1px solid white;
@@ -736,35 +733,7 @@ margin-left: 5%;
         }
 }
 
-@media only screen and (max-width: 1424px) {
-  html {
-      height: 2800px;
-  }
-  body {
-      height: 2500px;
-  }
-
-  .menunav {
-      visibility: visible;
-
-  }
-  #menu {
-    visibility: visible;
-    opacity: 1;
-    display: flex;
-  }
-
-  .navbar {
-      visibility: hidden;
-  }
-
-  .important {
-    visibility: hidden;
-  }
-
-  .dates {
-    visibility: hidden;
-  }
+@media only screen and (max-width: 1280px) {
 
       .theme{
         margin-top: 10%;
@@ -776,9 +745,11 @@ margin-left: 5%;
       }
 
         #footer {
-          margin-top: 37%;
+          margin-top: 35%;
         }
-
+        .footerr {
+          height: 55%;
+        }
         #creds{
           margin-top: 2%;
         }
@@ -786,48 +757,155 @@ margin-left: 5%;
 
 @media only screen and (max-width: 1056px) {
   html {
-      height: 2800px;
-  }
-  body {
-      height: 2500px;
-  }
-
-  .menunav {
-      visibility: visible;
-
-  }
-  #menu {
-    visibility: visible;
-    opacity: 1;
-    display: flex;
-  }
-
-  .navbar {
-      visibility: hidden;
-  }
-
-  .important {
-    visibility: hidden;
-  }
-
-  .dates {
-    visibility: hidden;
-  }
-
+    height: 2500px;
+}
+body {
+    height: 2200px;
+}
       .theme{
         margin-top: 10%;
         height: 16%;
       }
 
       .footerr{
-        height: 67%;
+        height: 57%;
       }
 
         #footer {
           margin-top: 37%;
         }
+h2{
+  margin-top: 30%;
+}
+        
+}
 
-        #creds{
-          margin-top: 2%;
+@media only screen and (max-width: 900px) {
+  html {
+    height: 2300px;
+}
+body {
+    height: 1900px;
+}
+      .theme{
+        margin-top: 10%;
+        height: 16%;
+      }
+
+      .footerr{
+        height: 57%;
+      }
+
+        #footer {
+          margin-top: 37%;
         }
+        .menunav {
+          height: 50px;
+        }
+}
+
+@media only screen and (max-width: 800px) {
+  html {
+    height: 2100px;
+}
+body {
+    height: 1700px;
+}
+      .theme{
+        margin-top: 10%;
+        height: 16%;
+      }
+
+      .footerr{
+        height: 57%;
+      }
+
+        #footer {
+          margin-top: 37%;
+        }
+        .menunav {
+          height: 50px;
+        }
+
+}
+@media only screen and (max-width: 700px) {
+  html {
+    height: 1800px;
+}
+body {
+    height: 1600px;
+}
+      .theme{
+        margin-top: 10%;
+        height: 16%;
+      }
+
+      .footerr{
+        height: 50%;
+      }
+
+}
+@media only screen and (max-width: 600px) {
+  html {
+    height: 1800px;
+}
+body {
+    height: 1600px;
+}
+      .theme{
+        margin-top: 10%;
+        height: 16%;
+      }
+
+      .footerr{
+        height: 43%;
+      }
+.w1 {
+  height: 16%;
+}
+}
+@media only screen and (max-width: 450px) {
+  html {
+    height: 1300px;
+}
+body {
+    height: 900px;
+}
+.menunav{
+  height: 30px;
+}
+      .theme{
+        margin-top: 10%;
+        height: 16%;
+      }
+
+      .footerr{
+        height: 58%;
+      }
+.w1 {
+  height: 22%;
+}
+h2 {
+  margin-top: 35%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  html {
+    height: 1300px;
+}
+body {
+    height: 900px;
+}
+.menunav{
+  height: 30px;
+}
+      .footerr{
+        height: 48%;
+      }
+.w1 {
+  height: 20%;
+}
+h2 {
+margin-top: 40%;
+}
 }

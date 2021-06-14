@@ -44,7 +44,7 @@ position:absolute;
     font-family: "Open Sans Semibold";
     font-size: 0.9vw;
     z-index : 10000;
-    height: 8%;
+    height: 65px;
     display: inline-block;
     width: 80%;
 }
@@ -574,11 +574,8 @@ position:absolute;
   z-index : 10000;
   top: 13%;
   width: 81.9%;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  height: 10%;
+  border-radius: 35px;
+  height: 70px;
   background-image: linear-gradient(to right, #0d50c4, #10a8b9, #1ec577);
   list-style-type: none;
   border: 1px solid white;
@@ -716,100 +713,133 @@ margin-left: 5%;
 
 }
 
-@media only screen and (max-width: 1424px) {
-  html {
-      height: 3300px;
-  }
-  body {
-      height: 3000px;
-  }
-
-  .menunav {
-      visibility: visible;
-
-  }
-  #menu {
-    visibility: visible;
-    opacity: 1;
-    display: flex;
-  }
-
-  .navbar {
-      visibility: hidden;
-  }
-
-  .important {
-    visibility: hidden;
-  }
-
-  .dates {
-    visibility: hidden;
-  }
-
-      .theme{
-        margin-top: 10%;
-        height: 16%;
-      }
+@media only screen and (max-width: 1366px) {
 
       .footerr{
-        height: 77%;
+        height: 70%;
       }
 
-        hr {
-          margin-top: 39%;
-        }
+}
+@media only screen and (max-width: 1280px) {
 
-        #creds{
-          margin-top: 2%;
-        }
+  .footerr{
+    height: 65%;
+  }
+
+}
+@media only screen and (max-width: 1160px) {
+  html {
+    height: 2700px;
+}
+body {
+    height: 2400px;
+}
+      .footerr{
+        height: 73%;
+      }
+}
+
+@media only screen and (max-width: 1024px) {
+  html {
+    height: 2400px;
+}
+body {
+    height: 2100px;
+}
+      .footerr{
+        height: 73%;
+      }
+}
+
+@media only screen and (max-width: 900px) {
+  html {
+    height: 2000px;
+}
+body {
+    height: 1700px;
+}
+      .footerr{
+        height: 80%;
+      }
+      .menunav{
+        height: 50px;
+      }
+      h2{
+        margin-top: 30%;
+      }
 
 }
 
-@media only screen and (max-width: 1056px) {
+@media only screen and (max-width: 800px) {
   html {
-      height: 3300px;
-  }
-  body {
-      height: 3000px;
-  }
-
-  .menunav {
-      visibility: visible;
-
-  }
-  #menu {
-    visibility: visible;
-    opacity: 1;
-    display: flex;
-  }
-
-  .navbar {
-      visibility: hidden;
-  }
-
-  .important {
-    visibility: hidden;
-  }
-
-  .dates {
-    visibility: hidden;
-  }
-
-      .theme{
-        margin-top: 10%;
-        height: 16%;
+    height: 1800px;
+}
+body {
+    height: 1500px;
+}
+      .menunav{
+        height: 50px;
       }
+      h2{
+        margin-top: 30%;
+      }
+}
 
+@media only screen and (max-width: 700px) {
+  html {
+    height: 1800px;
+}
+body {
+    height: 1200px;
+}
       .footerr{
-        height: 77%;
+        height: 90%;
       }
+      .menunav{
+        height: 45px;
+      }
+      h2{
+        margin-top: 35%;
+      }
+      
+}
 
-        hr {
-          margin-top: 39%;
-        }
-
-        #creds{
-          margin-top: 2%;
-        }
-
+@media only screen and (max-width: 500px) {
+  html {
+    height: 1500px;
+}
+body {
+    height: 1200px;
+}
+      .footerr{
+        height: 65%;
+      }
+}
+@media only screen and (max-width: 400px) {
+  html {
+    height: 1300px;
+}
+body {
+    height: 1000px;
+}
+      .footerr{
+        height: 65%;
+      }
+      .menunav{
+        height: 35px;
+      }
+}
+@media only screen and (max-width: 350px) {
+  html {
+    height: 1300px;
+}
+body {
+    height: 1000px;
+}
+      .footerr{
+        height: 55%;
+      }
+      .menunav{
+        height: 20px;
+      }
 }

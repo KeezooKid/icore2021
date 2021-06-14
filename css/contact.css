@@ -44,7 +44,7 @@ position:absolute;
     font-family: "Open Sans Semibold";
     font-size: 0.9vw;
     z-index : 10000;
-    height: 8%;
+    height: 65px;
     display: inline-block;
     width: 80%;
 }
@@ -625,11 +625,8 @@ input[type=reset]:hover{
   z-index : 10000;
   top: 13%;
   width: 81.9%;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  height: 10%;
+  border-radius: 35px;
+  height: 70px;
   background-image: linear-gradient(to right, #0d50c4, #10a8b9, #1ec577);
   list-style-type: none;
   border: 1px solid white;
@@ -764,106 +761,104 @@ margin-left: 5%;
 .table {
   height: 22%;
 }
+.info{
+  height: 450px;
+}
 }
 
-@media only screen and (max-width: 1424px) {
+@media only screen and (max-width: 1366px) {
+  .footerr{
+    height: 70%;
+  }
+  .info{
+    height: 430px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
   html {
-      height: 2300px;
-  }
-  body {
-      height: 2000px;
-  }
-
-  .menunav {
-      visibility: visible;
-
-  }
-  #menu {
-    visibility: visible;
-    opacity: 1;
-    display: flex;
-  }
-
-  .navbar {
-      visibility: hidden;
-  }
-
-  .important {
-    visibility: hidden;
-  }
-
-  .dates {
-    visibility: hidden;
-  }
-
-      .theme{
-        margin-top: 10%;
-        height: 16%;
-      }
-
-      .footerr{
-        height: 77%;
-      }
-
-        hr {
-          margin-top: 39%;
-        }
-
-        #creds{
-          margin-top: 2%;
-        }
-.table {
-  height: 22%;
+    height: 2000px;
 }
+body {
+    height: 1700px;
+}
+.footerr{
+    height: 75%;
+  }
+  .info{
+    height: 410px;
+  }
 }
 
 @media only screen and (max-width: 1056px) {
-  html {
-      height: 2300px;
-  }
-  body {
-      height: 2000px;
-  }
-
-  .menunav {
-      visibility: visible;
-
-  }
-  #menu {
-    visibility: visible;
-    opacity: 1;
-    display: flex;
-  }
-
-  .navbar {
-      visibility: hidden;
-  }
-
-  .important {
-    visibility: hidden;
-  }
-
-  .dates {
-    visibility: hidden;
-  }
-
-      .theme{
-        margin-top: 10%;
-        height: 16%;
+      .info{
+        height: 350px;
       }
-
       .footerr{
-        height: 77%;
+        height: 65%;
       }
-
-        hr {
-          margin-top: 39%;
-        }
-
-        #creds{
-          margin-top: 2%;
-        }
-.table {
-  height: 22%;
 }
+@media only screen and (max-width: 900px) {
+  html {
+    height: 1500px;
+}
+body {
+    height: 1200px;
+}
+  .info{
+    height: 330px;
+  }
+  .footerr{
+    margin-top: 40%;
+    height: 75%;
+  }
+  .menunav{
+    height: 50px;
+  }
+  h2 {
+    margin-top: 25%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  html {
+    height: 1500px;
+}
+body {
+    height: 1200px;
+}
+  .info{
+    height: 270px;
+  }
+  .footerr{
+    margin-top: 40%;
+    height: 50%;
+  }
+  .menunav{
+    height: 40px;
+  }
+  h2 {
+    margin-top: 30%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  html {
+    height: 1000px;
+}
+body {
+    height: 900px;
+}
+  .info{
+    height: 250px;
+  }
+  .footerr{
+    margin-top: 40%;
+    height: 53%;
+  }
+  .menunav{
+    height: 30px;
+  }
+  h2 {
+    margin-top: 40%;
+  }
 }

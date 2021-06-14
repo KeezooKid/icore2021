@@ -44,7 +44,7 @@ position:absolute;
     font-family: "Open Sans Semibold";
     font-size: 0.9vw;
     z-index : 10000;
-    height: 8%;
+    height: 65px;
     display: inline-block;
     width: 80%;
 }
@@ -529,11 +529,8 @@ position:absolute;
   z-index : 10000;
   top: 13%;
   width: 81.9%;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  height: 10%;
+  border-radius: 35px;
+  height: 70px;
   background-image: linear-gradient(to right, #0d50c4, #10a8b9, #1ec577);
   list-style-type: none;
   border: 1px solid white;
@@ -678,111 +675,363 @@ margin-left: 5%;
 }    
 
 @media only screen and (max-width: 1424px) {
-  html {
-      height: 3800px;
-  }
-  body {
-      height: 3500px;
-  }
-
-  .menunav {
-      visibility: visible;
-
-  }
-  #menu {
-    visibility: visible;
-    opacity: 1;
-    display: flex;
-  }
-
-  .navbar {
-      visibility: hidden;
-  }
-
-  .important {
-    visibility: hidden;
-  }
-
-  .dates {
-    visibility: hidden;
-  }
-
-      .theme{
-        margin-top: 10%;
-        height: 16%;
-      }
-
       .footerr{
-        height: 67%;
+        height: 63%;
       }
-
-        #footer {
-          margin-top: 37%;
-        }
-
-        #creds{
-          margin-top: 2%;
-        }
         .day1 #line {
-          height: 1920px;
+          height: 1850px;
         }
 
         .day2 #line {
-          height: 1400px;
+          height: 1350px;
         }
 }
+@media only screen and (max-width: 1366px) {
+  .footerr{
+    height: 63%;
+  }
+    .day1 #line {
+      height: 1750px;
+    }
 
-@media only screen and (max-width: 1056px) {
+    .day2 #line {
+      height: 1300px;
+    }
+}
+@media only screen and (max-width: 1300px) {
+  .footerr{
+    height: 58%;
+  }
+    .day1 #line {
+      height: 1690px;
+    }
+
+    .day2 #line {
+      height: 1250px;
+    }
+}
+@media only screen and (max-width: 1230px) {
+  .footerr{
+    height: 55%;
+  }
+  .day1 #line {
+    height: 1595px;
+  }
+
+  .day2 #line {
+    height: 1180px;
+  }
+}
+@media only screen and (max-width: 1170px) {
+  .footerr{
+    height: 51%;
+  }
+  .day1 #line {
+    height: 1520px;
+  }
+
+  .day2 #line {
+    height: 1110px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .footerr{
+    height: 51%;
+  }
+  .day1 #line {
+    height: 1420px;
+  }
+
+  .day2 #line {
+    height: 1050px;
+  }
+}
+@media only screen and (max-width: 1030px) {
   html {
-      height: 3800px;
+    height: 2800px;
+}
+body {
+    height: 2500px;
+}
+.menunav{
+  height: 50px;
+}
+  .footerr{
+    height: 65%;
   }
-  body {
-      height: 3500px;
-  }
-
-  .menunav {
-      visibility: visible;
-
-  }
-  #menu {
-    visibility: visible;
-    opacity: 1;
-    display: flex;
-  }
-
-  .navbar {
-      visibility: hidden;
+  .day1 #line {
+    height: 1320px;
   }
 
-  .important {
-    visibility: hidden;
+  .day2 #line {
+    height: 975px;
+  }
+}
+@media only screen and (max-width: 970px) {
+  html {
+    height: 2800px;
+}
+body {
+    height: 2500px;
+}
+.menunav{
+  height: 50px;
+}
+  .footerr{
+    height: 60%;
+  }
+  .day1 #line {
+    height: 1250px;
   }
 
-  .dates {
-    visibility: hidden;
+  .day2 #line {
+    height: 925px;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .footerr{
+    height: 57%;
+  }
+  .day1 #line {
+    height: 1190px;
   }
 
-      .theme{
-        margin-top: 10%;
-        height: 16%;
-      }
+  .day2 #line {
+    height: 875px;
+  }
 
+}
+@media only screen and (max-width: 870px) {
+  html {
+    height: 2300px;
+}
+body {
+    height: 1800px;
+}
+.footerr{
+  height: 75%;
+}
+.day1 #line {
+  height: 1110px;
+}
+
+.day2 #line {
+  height: 825px;
+}
+  h2 {
+    margin-top: 30%;
+  }
+}
+@media only screen and (max-width: 800px) {
+.footerr{
+  height: 70%;
+}
+.day1 #line {
+  height: 1050px;
+}
+
+.day2 #line {
+  height: 770px;
+}
+}
+@media only screen and (max-width: 770px) {
+  .footerr{
+    height: 68%;
+  }
+  .day1 #line {
+    height: 1000px;
+  }
+  
+  .day2 #line {
+    height: 730px;
+  }
+  }
+  @media only screen and (max-width: 740px) {
+    .footerr{
+      height: 65%;
+    }
+    .day1 #line {
+      height: 950px;
+    }
+    
+    .day2 #line {
+      height: 700px;
+    }
+    }
+    @media only screen and (max-width: 700px) {
       .footerr{
-        height: 67%;
+        height: 60%;
       }
-
-        #footer {
-          margin-top: 37%;
-        }
-
-        #creds{
-          margin-top: 2%;
+      .day1 #line {
+        height: 890px;
+      }
+      
+      .day2 #line {
+        height: 650px;
+      }
+      }
+      @media only screen and (max-width: 650px) {
+        .footerr{
+          height: 55%;
         }
         .day1 #line {
-          height: 1920px;
+          height: 830px;
         }
-
+        
         .day2 #line {
-          height: 1400px;
+          height: 610px;
         }
-}
+        }
+        @media only screen and (max-width: 600px) {
+          html {
+            height: 5300px;
+        }
+        body {
+            height: 2500px;
+        }
+          .footerr{
+            height: 37%;
+          }
+          .day1 #line {
+            height: 2250px;
+          }
+          
+          .day2 #line {
+            height: 1530px;
+          }
+            .sched {
+              display: block;
+              width: 80%;
+              margin-left: 3%;
+            }
+            .day1 #stxt,.day2 #stxt {
+              font-size: 3vw;
+            }
+            .day1 #stxt1,.day2 #stxt1 {
+              font-size: 3vw;
+            }
+            .sched h5 {
+              font-size: 4vw;
+            }
+            .sched #subtitle {
+              font-size: 3.5vw;
+            }
+          }
+  @media only screen and (max-width: 560px) {
+    html {
+      height: 5300px;
+      }
+    body {
+      height: 2500px;
+      }
+    .footerr{
+      height: 37%;
+      }
+    .day1 #line {
+      height: 2130px;
+      }
+    .day2 #line {
+      height: 1450px;
+    }
+  }
+  @media only screen and (max-width: 530px) {
+    .footerr{
+      height: 37%;
+      }
+    .day1 #line {
+      height: 2030px;
+      }
+    .day2 #line {
+      height: 1390px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .footerr{
+      height: 37%;
+      }
+    .day1 #line {
+      height: 1900px;
+      }
+    .day2 #line {
+      height: 1300px;
+    }
+    h2{
+      margin-top: 50%;
+    }
+    .menunav {
+      height: 40px;
+    }
+  }
+  @media only screen and (max-width: 460px) {
+    html {
+      height: 4500px;
+      }
+    body {
+      height: 2500px;
+      }
+    .footerr{
+      height: 37%;
+      }
+    .day1 #line {
+      height: 1780px;
+      }
+    .day2 #line {
+      height: 1220px;
+    }
+  }
+  @media only screen and (max-width: 435px) {
+    .footerr{
+      height: 30%;
+      }
+    .day1 #line {
+      height: 1680px;
+      }
+    .day2 #line {
+      height: 1150px;
+    }
+  }
+  @media only screen and (max-width: 410px) {
+    .footerr{
+      height: 30%;
+      }
+    .day1 #line {
+      height: 1590px;
+      }
+    .day2 #line {
+      height: 1100px;
+    }
+  }
+  @media only screen and (max-width: 390px) {
+    .footerr{
+      height: 25%;
+      }
+    .day1 #line {
+      height: 1510px;
+      }
+    .day2 #line {
+      height: 1040px;
+    }
+  }
+  @media only screen and (max-width: 365px) {
+    .footerr{
+      height: 25%;
+      }
+    .day1 #line {
+      height: 1430px;
+      }
+    .day2 #line {
+      height: 980px;
+    }
+  }
+  @media only screen and (max-width: 350px) {
+    .footerr{
+      height: 25%;
+      }
+    .day1 #line {
+      height: 1370px;
+      }
+    .day2 #line {
+      height: 930px;
+    }
+  }

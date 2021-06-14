@@ -44,7 +44,7 @@ position:absolute;
     font-family: "Open Sans Semibold";
     font-size: 0.9vw;
     z-index : 10000;
-    height: 8%;
+    height: 65px;
     display: inline-block;
     width: 80%;
 }
@@ -585,11 +585,8 @@ p{
   z-index : 10000;
   top: 13%;
   width: 81.9%;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  height: 10%;
+  border-radius: 35px;
+  height: 70px;
   background-image: linear-gradient(to right, #0d50c4, #10a8b9, #1ec577);
   list-style-type: none;
   border: 1px solid white;
@@ -751,154 +748,99 @@ margin-left: 5%;
 
 }
 
-@media only screen and (max-width: 1424px) {
-  html {
-      height: 3300px;
-  }
-  body {
-      height: 3000px;
-  }
-
-  .menunav {
-      visibility: visible;
-
-  }
-  #menu {
-    visibility: visible;
-    opacity: 1;
-    display: flex;
-  }
-
-  .navbar {
-      visibility: hidden;
-  }
-
-  .important {
-    visibility: hidden;
-  }
-
-  .dates {
-    visibility: hidden;
-  }
-
-      .theme{
-        margin-top: 10%;
-        height: 16%;
-      }
-
-      .footerr{
-        height: 75%;
-      }
-
-        .homey{
-          top: 12%;
-        }
-
-        .work {
-          top: 12%;
-        }
-
-        .imp {
-          top: 12%;
-        }
-
-        .sub {
-          top: 12%;
-        }
-
-        .con {
-          top: 12%;
-          }
-          img {
-            margin-top: 0%;
-          }
-
-        .reg {
-          margin-top: 25%;
-        }
-
-        hr {
-          margin-top: 35%;
-        }
-
-        #creds{
-          margin-top: 2%;
-        }
-
-}
 
 @media only screen and (max-width: 1056px) {
   html {
-      height: 3300px;
+      height: 2800px;
   }
   body {
-      height: 3000px;
+      height: 2400px;
   }
+.footerr{
+  height: 70%;
+}
+h2 {
+  margin-top: 30%;
+}
+}
 
-  .menunav {
-      visibility: visible;
-
+@media only screen and (max-width: 850px) {
+  html {
+      height: 2500px;
   }
-  #menu {
-    visibility: visible;
-    opacity: 1;
-    display: flex;
+  body {
+      height: 2000px;
   }
+.menunav{
+  height:50px;
+}
 
-  .navbar {
-      visibility: hidden;
-  }
+}
+@media only screen and (max-width: 750px) {
+  html {
+    height: 2000px;
+}
+body {
+    height: 1500px;
+}
+.menunav{
+height:40px;
+}
+.footerr{
+  height: 78%;
+}
+}
 
-  .important {
-    visibility: hidden;
-  }
-
-  .dates {
-    visibility: hidden;
-  }
-
-      .theme{
-        margin-top: 10%;
-        height: 16%;
-      }
-
-      .footerr{
-        height: 75%;
-      }
-
-        .homey{
-          top: 12%;
-        }
-
-        .work {
-          top: 12%;
-        }
-
-        .imp {
-          top: 12%;
-        }
-
-        .sub {
-          top: 12%;
-        }
-
-        .con {
-          top: 12%;
-          }
-          img {
-            margin-top: 0%;
-          }
-
-        .reg {
-          margin-top: 25%;
-        }
-
-        hr {
-          margin-top: 35%;
-        }
-
-        #creds{
-          margin-top: 2%;
-        }
-
+@media only screen and (max-width: 600px) {
+  html {
+    height: 1800px;
+}
+body {
+    height: 1200px;
+}
+}
+@media only screen and (max-width: 500px) {
+  html {
+    height: 1800px;
+}
+body {
+    height: 1200px;
+}
+.menunav{
+height:40px;
+}
+.footerr{
+  height: 68%;
+}
+}
+@media only screen and (max-width: 450px) {
+  html {
+    height: 1500px;
+}
+body {
+    height: 900px;
+}
+.menunav{
+height:30px;
+}
+.footerr{
+  height: 78%;
+}
+h2 {
+  margin-top: 40%;
+}
+}
+@media only screen and (max-width: 350px) {
+  html {
+    height: 1000px;
+}
+body {
+    height: 800px;
+}
+.menunav{
+height:30px;
+}
+.footerr{
+  height: 70%;
+}
 }
