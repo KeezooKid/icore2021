@@ -17,6 +17,7 @@ p {
   color: white;
 }
 .logo {
+  cursor: pointer;
   width: 10%;
   height: 70%;
   float: left;
@@ -30,11 +31,11 @@ nav {
   margin-left:9.1%;
   margin-right: 8.85%;
 }
-.navbar {
+ .navbar {
     background-image: linear-gradient(to right, #0d50c4, #10a8b9, #1ec577);
     list-style-type: none;
     overflow: visible;
-    position: fixed;
+position:absolute;
     margin-top: 5%;
     border: 1px solid white;
     border-radius: 30px;
@@ -195,12 +196,18 @@ nav {
   margin-left: 88%;
 }
 
+.important:hover .datelist {
+    opacity: 1;
+    transition-delay: 0s, 0s;
+    visibility: visible;
+    
+}
+
 .dates {
-  position: fixed;
+  position: absolute;
   background: url(images/date1.svg);
   display: inline-block;
-  width: 10%;
-  height: 8%;
+  height: 100%;
   color: white;
   margin-left: 1%;
   background-repeat: no-repeat;
@@ -209,7 +216,7 @@ nav {
 
   animation-name: slide;
   animation-direction: alternate;
-  animation-duration: 5s;
+  animation-duration: 20s;
   animation-fill-mode: normal;
   animation-iteration-count: infinite;
   animation-play-state: running;
@@ -218,31 +225,31 @@ nav {
 
 }
 @keyframes slide{
-  0%{
-    background-image: url(/images/date2.svg);
+0%{
+    background-image: url(/images/ddate2.svg);
     background-size: 100% 100%;
     width: 20%;
   }
   25%{
-    background-image: url(/images/date3.svg);
+    background-image: url(/images/ddate3.svg);
     background-size: 100% 100%;width: 20%;
   }
   50%{
-    background-image: url(/images/date4.svg);
+    background-image: url(/images/ddate4.svg);
     background-size: 100% 100%;width: 20%;
   }
   75%{
-    background-image: url(/images/date5.svg);
+    background-image: url(/images/ddate5.svg);
     background-size: 100% 100%;width: 20%;
   }
   100%{
-    background-image: url(/images/date1.svg);
+    background-image: url(/images/ddate1.svg);
     background-size: 100% 100%;width: 20%;
   }
 }
 
   .datelist {
-    position: fixed;
+    position:absolute;
     width: 20%;
     height: 90%;
     color: white;
@@ -252,22 +259,20 @@ nav {
     display: inline-block;
     opacity: 0;
     visibility: hidden;
-
+    transition-property: opacity, visibility;
+    transition-duration: .4s, 0s;
+    transition-delay: 0s, .4s;
     left: 55%;
   }
 
   .datelist a {
-    width: 66.5%;
-  }
-
-  .important:hover .datelist,.important:hover a {
     display: inline-block;
-    opacity: 1;
-    transition-property: opacity, visibility;
+    margin-top: 3.8%;
+    margin-left: 24%;
+    opacity: 0;
+    transition-property: opacity;
     transition-duration: .4s, 0s;
-    transition-delay: 0s, 0.4s;
-    visibility: visible;
-    
+    transition-delay: 0s, .4s;
   }
 
   .datelist img {
@@ -305,6 +310,7 @@ nav {
     transition-duration: .4s, 0s;
     transition-delay: 0s, .4s;
     visibility: visible;
+    width: 70%;
    }
 
   .important:hover .datelist img{
@@ -314,6 +320,7 @@ nav {
     transition-duration: .4s, 0s;
     transition-delay: 0s, .4s;
     visibility: visible;
+    
   }
 
   .dlist img:hover{
@@ -563,7 +570,7 @@ nav {
 .menunav {
   visibility: hidden;
   overflow: visible;
-  position: fixed;
+  position:absolute;
   z-index : 10000;
   top: 13%;
   width: 81.9%;
@@ -585,7 +592,9 @@ float: right;
 margin-top: 0.9%;
 padding-right:5%;
 display: none;
+cursor: pointer;
 }
+ 
 #menu1 {
 visibility: hidden;
 width: 2%;
@@ -593,7 +602,10 @@ height: 70%;
 float: right;
 margin-top: 0.7%;
 padding-right: 0%;
+cursor: pointer;
 }
+
+
 #dropmenu {
 background-image: linear-gradient(to right, #0d50c417, #10a8b96c, #1ec57731);
   backdrop-filter: blur( 40px );
@@ -698,6 +710,104 @@ margin-left: 5%;
           margin-top: 39%;
         }
       
+        #creds{
+          margin-top: 2%;
+        }
+
+}
+
+@media only screen and (max-width: 1424px) {
+  html {
+      height: 3300px;
+  }
+  body {
+      height: 3000px;
+  }
+
+  .menunav {
+      visibility: visible;
+
+  }
+  #menu {
+    visibility: visible;
+    opacity: 1;
+    display: flex;
+  }
+
+  .navbar {
+      visibility: hidden;
+  }
+
+  .important {
+    visibility: hidden;
+  }
+
+  .dates {
+    visibility: hidden;
+  }
+
+      .theme{
+        margin-top: 10%;
+        height: 16%;
+      }
+
+      .footerr{
+        height: 77%;
+      }
+
+        hr {
+          margin-top: 39%;
+        }
+
+        #creds{
+          margin-top: 2%;
+        }
+
+}
+
+@media only screen and (max-width: 1056px) {
+  html {
+      height: 3300px;
+  }
+  body {
+      height: 3000px;
+  }
+
+  .menunav {
+      visibility: visible;
+
+  }
+  #menu {
+    visibility: visible;
+    opacity: 1;
+    display: flex;
+  }
+
+  .navbar {
+      visibility: hidden;
+  }
+
+  .important {
+    visibility: hidden;
+  }
+
+  .dates {
+    visibility: hidden;
+  }
+
+      .theme{
+        margin-top: 10%;
+        height: 16%;
+      }
+
+      .footerr{
+        height: 77%;
+      }
+
+        hr {
+          margin-top: 39%;
+        }
+
         #creds{
           margin-top: 2%;
         }

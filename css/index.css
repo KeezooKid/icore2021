@@ -18,6 +18,7 @@ p {
   color: white;
 }
 .logo {
+  cursor: pointer;
   width: 7%;
   height: 70%;
   float: left;
@@ -35,7 +36,7 @@ nav {
     background-image: linear-gradient(to right, #0d50c4, #10a8b9, #1ec577);
     list-style-type: none;
     overflow: visible;
-    position: fixed;
+    position:absolute;
     margin-top: 5%;
     border: 1px solid white;
     border-top-right-radius: 20px;
@@ -145,7 +146,7 @@ nav {
     background-image: linear-gradient(to right, #ffffff3b, #8080800c);
     width: 10%;
     z-index: 1;
-    left: 21.5%;
+    left: 18.5%;
     content: "";
     position: absolute;
     color: white;
@@ -157,10 +158,11 @@ nav {
     transition-property: opacity, visibility;
     transition-duration: .4s, 0s;
     transition-delay: 0s, .4s;
+    border-radius: 25%;
     }
 
     .second {
-      left: 42%;
+      left: 39%;
     }
   
 .dropdown-content a {
@@ -193,10 +195,6 @@ nav {
     top: -15px;
 }
 
-#menu {
-  visibility: hidden;
-}
-
 .dropdown .dropdown-content a:hover {
     text-shadow:  0px 0 20px rgba(255, 255, 255, 0.842);
   }
@@ -223,7 +221,7 @@ nav {
 
   animation-name: slide;
   animation-direction: alternate;
-  animation-duration: 5s;
+  animation-duration: 20s;
   animation-fill-mode: normal;
   animation-iteration-count: infinite;
   animation-play-state: running;
@@ -233,24 +231,24 @@ nav {
 }
 @keyframes slide{
   0%{
-    background-image: url(/images/date2.svg);
+    background-image: url(/images/ddate2.svg);
     background-size: 100% 100%;
     width: 20%;
   }
   25%{
-    background-image: url(/images/date3.svg);
+    background-image: url(/images/ddate3.svg);
     background-size: 100% 100%;width: 20%;
   }
   50%{
-    background-image: url(/images/date4.svg);
+    background-image: url(/images/ddate4.svg);
     background-size: 100% 100%;width: 20%;
   }
   75%{
-    background-image: url(/images/date5.svg);
+    background-image: url(/images/ddate5.svg);
     background-size: 100% 100%;width: 20%;
   }
   100%{
-    background-image: url(/images/date1.svg);
+    background-image: url(/images/ddate1.svg);
     background-size: 100% 100%;width: 20%;
   }
 }
@@ -266,10 +264,20 @@ nav {
     display: inline-block;
     opacity: 0;
     visibility: hidden;
+    transition-property: opacity, visibility;
+    transition-duration: .4s, 0s;
+    transition-delay: 0s, .4s;
   }
 
   .datelist a {
     width: 66.5%;
+    display: inline-block;
+    margin-top: 3.8%;
+    margin-left: 24%;
+    opacity: 0;
+    transition-property: opacity, visibility;
+    transition-duration: .4s, 0s;
+    transition-delay: 0s, .4s;
   }
 
   .important:hover .datelist,.important:hover a {
@@ -307,7 +315,12 @@ nav {
     transition-duration: .4s, 0s;
     transition-delay: 0s, .4s;
   }
-
+  .important:hover .datelist {
+    opacity: 1;
+    transition-delay: 0s, 0s;
+    visibility: visible;
+    
+}
   .important:hover .datelist a{
     display: inline-block;
     margin-top: 5.2%;
@@ -860,7 +873,7 @@ div.footer p, .footer a{
   .menunav {
     visibility: hidden;
     overflow: visible;
-    position: fixed;
+    position: absolute;
     z-index : 10000;
     top: 13%;
     width: 81.9%;
@@ -882,6 +895,7 @@ div.footer p, .footer a{
   margin-top: 0.9%;
   padding-right:5%;
   display: none;
+  cursor: pointer;
 }
 #menu1 {
   visibility: hidden;
@@ -890,6 +904,7 @@ div.footer p, .footer a{
   float: right;
   margin-top: 0.7%;
   padding-right: 0%;
+  cursor: pointer;
 }
 #dropmenu {
   background-image: linear-gradient(to right, #0d50c417, #10a8b96c, #1ec57731);
@@ -993,16 +1008,571 @@ body {
       margin-top: 10%;
       height: 16%;
     }
-       .footerr{
+
+    .footerr{
       height: 65%;
     }
 
     hr{
       margin-top: 35%;
     }
+    #orangepink {
+      margin-top: 62%;
+    }
+    
 }
 
+@media only screen and (max-width:1424px) {
+  html {
+      height: 4500px;
+  }
+  body {
+      height: 3500px;
+  }
+  
+    .banner{
+      height: 20%;
+      margin-top: 9%;
+      }
+  
+      .theme{
+        margin-top: 10%;
+        height: 20%;
+      }
+  
+      .footerr{
+        height: 75%;
+      }
+  
+      hr{
+        margin-top: 35%;
+      }
+      footer {
+        margin-top: 25%;
+      }
+      #orangepink {
+        margin-top: 65%;
+      }
+  }
 
-/*-----BERNA CODES----*/
+  @media only screen and (max-width:1366px) {
+    html {
+        height: 4000px;
+    }
+    body {
+        height: 3000px;
+    }
+    
+      .banner{
+        height: 20%;
+        margin-top: 9%;
+        }
+    
+        .theme{
+          margin-top: 10%;
+          height: 20%;
+        }
+    
+        .footerr{
+          height: 85%;
+        }
+    
+        hr{
+          margin-top: 35%;
+        }
+        footer {
+          margin-top: 25%;
+        }
+        #orangepink {
+          margin-top: 67%;
+        }
+    }
+    @media only screen and (max-width:1280px) {
+      html {
+          height: 4000px;
+      }
+      body {
+          height: 3000px;
+      }
+      
+        .banner{
+          height: 20%;
+          margin-top: 9%;
+          }
+      
+          .theme{
+            margin-top: 10%;
+            height: 20%;
+          }
+      
+          .footerr{
+            height: 85%;
+          }
+      
+          hr{
+            margin-top: 35%;
+          }
+          footer {
+            margin-top: 25%;
+          }
+          .com1 {
+            height: 330px;
+          }
+          .com2 {
+            height: 380px;
+          }
+          #orangepink {
+            margin-top: 67%;
+          }
+      }
+      @media only screen and (max-width:1160px) {
+        html {
+            height: 4000px;
+        }
+        body {
+            height: 3000px;
+        }
+        
+          .banner{
+            height: 20%;
+            margin-top: 9%;
+            }
+        
+            .theme{
+              margin-top: 10%;
+              height: 20%;
+            }
+        
+            .footerr{
+              height: 85%;
+            }
+        
+            footer {
+              margin-top: 25%;
+            }
+            .com1 {
+              height: 330px;
+            }
+            .com2 {
+              height: 350px;
+            }
+            #orangepink {
+              margin-top: 67%;
+            }
+        }
+        @media only screen and (max-width:1100px) {
+          html {
+              height: 3400px;
+          }
+          body {
+              height: 2400px;
+          }
+          
+            .banner{
+              height: 23%;
+              margin-top: 9%;
+              }
+          
+              .theme{
+                margin-top: 10%;
+                height: 23%;
+              }
+          
+              .footerr{
+                height: 85%;
+              }
+          
+              hr{
+                margin-top: 35%;
+              }
+              footer {
+                margin-top: 25%;
+              }
+              .com1 {
+                height: 310px;
+              }
+              .com2 {
+                height: 330px;
+              }
+              #orangepink {
+                margin-top: 67%;
+              }
+          }
+  @media only screen and (max-width:1056px) {
+    html {
+        height: 3300px;
+    }
+    body {
+        height: 2600px;
+    }
+    
+      .banner{
+        height: 20%;
+        margin-top: 10%;
+        }
+    
+        .theme{
+          margin-top: 10%;
+          height: 20%;
+        }
+    
+        .footerr{
+          height: 77%;
+        }
+    
+        hr{
+          margin-top: 35%;
+        }
+        .com1 {
+          height: 250px;
+        }
+        .com2 {
+          height: 280px;
+        }
+        footer {
+          margin-top: 25%;
+        }
+        #orangepink {
+          margin-top: 60%;
+        }
+    }
 
-/*-----ELAINE CODES----*/
+    @media only screen and (max-width:1024px) {
+      html {
+          height: 3300px;
+      }
+      body {
+          height: 2500px;
+      }
+      
+        .banner{
+          height: 20%;
+          margin-top: 10%;
+          }
+      
+          .theme{
+            margin-top: 10%;
+            height: 20%;
+          }
+      
+          .footerr{
+            height: 75%;
+          }
+      
+          hr{
+            margin-top: 35%;
+          }
+          .com1 {
+            height: 270px;
+          }
+          .com2 {
+            height: 290px;
+          }
+          #orangepink {
+            margin-top: 65%;
+          }
+      }
+
+      @media only screen and (max-width:950px) {
+        html {
+            height: 3000px;
+        }
+        body {
+            height: 2350px;
+        }
+
+          .banner{
+            height: 20%;
+            margin-top: 11%;
+            }
+        
+            .theme{
+              margin-top: 10%;
+              height: 20%;
+            }
+        
+            .footerr{
+              height: 75%;
+            }
+        
+            hr{
+              margin-top: 35%;
+            }
+            #orangepink {
+              margin-top: 68%;
+            }
+        }
+
+        @media only screen and (max-width:900px) {
+          html {
+              height: 3000px;
+          }
+          body {
+              height: 2350px;
+          }
+          
+            .banner{
+              height: 20%;
+              margin-top: 12%;
+              }
+          
+              .theme{
+                margin-top: 10%;
+                height: 20%;
+              }
+          
+              .footerr{
+                height: 75%;
+              }
+
+              #orangepink {
+                margin-top: 73%;
+              }
+              #d1{
+                margin-left: 25%;
+              }
+              #art1 {
+                width: 60%;
+                }
+              
+              #txt1 {
+                  font-size: 1.2vw;
+                }
+                #p1 {
+                  font-size: 1vw;
+                }
+
+              #art2 {
+                  width: 85%;
+                  margin-right: 5%;
+              }
+                    
+              #txt2 {
+                  font-size: 1.2vw;
+              }
+              #p2 {
+                font-size: 1vw;
+              }
+          }
+
+          @media only screen and (max-width:830px) {
+            html {
+                height: 2900px;
+            }
+            body {
+                height: 2250px;
+            }
+
+              .banner{
+                height: 20%;
+                margin-top: 12%;
+                }
+            
+                .theme{
+                  margin-top: 10%;
+                  height: 20%;
+                }
+            
+                .footerr{
+                  height: 70%;
+                }
+            
+                hr{
+                  margin-top: 35%;
+                }
+                footer {
+                  margin-top: 30%;
+                }
+                #orangepink {
+                  margin-top: 78%;
+                }
+            }
+
+            @media only screen and (max-width:800px) {
+              html {
+                  height: 2700px;
+              }
+              body {
+                  height: 2050px;
+              }
+              
+                .banner{
+                  height: 20%;
+                  margin-top: 13%;
+                  }
+              
+                  .theme{
+                    margin-top: 10%;
+                    height: 20%;
+                  }
+              
+                  .footerr{
+                    height: 70%;
+                  }
+
+                  footer {
+                    margin-top: 38%;
+                  }
+                  #orangepink {
+                    margin-top: 78%;
+                  }
+              }
+
+              @media only screen and (max-width:750px) {
+                html {
+                  height: 2750px;
+              }
+              body {
+                  height: 2050px;
+              }
+                .menunav {
+                    visibility: visible;
+                    height: 8%;
+                }
+                  .banner{
+                    height: 20%;
+                    margin-top: 15%;
+                    }
+                    .footerr{
+                      height: 70%;
+                    }
+                    .com1 {
+                      height: 220px;
+                    }
+                    .com2 {
+                      height: 240px;
+                    }
+                    #orangepink {
+                      margin-top: 73%;
+                    }
+
+                }
+        
+                @media only screen and (max-width:700px) {
+                  html {
+                    height: 2750px;
+                }
+                body {
+                    height: 2050px;
+                }
+                  .menunav {
+                      visibility: visible;
+                      height: 8%;
+                  }
+                    .banner{
+                      height: 18%;
+                      margin-top: 15%;
+                      }
+                      .theme{
+                        height: 20%;
+                      }
+                      .footerr{
+                        height: 68%;
+                      }
+                      .com1 {
+                        height: 220px;
+                      }
+                      .com2 {
+                        height: 240px;
+                      }
+                      #orangepink {
+                        margin-top: 76%;
+                      }
+                  }
+                  @media only screen and (max-width:650px) {
+                    html {
+                      height: 2400px;
+                  }
+                  body {
+                      height: 1700px;
+                  }
+                    .menunav {
+                        visibility: visible;
+                        height: 8%;
+                    }
+                      .banner{
+                        height: 20%;
+                        margin-top: 16%;
+                        }
+                        .theme{
+                          height: 22%;
+                        }
+                        .footerr{
+                          height: 68%;
+                        }
+                        .com1 {
+                          height: 220px;
+                        }
+                        .com2 {
+                          height: 240px;
+                        }
+                        #orangepink {
+                          margin-top: 83%;
+                        }
+                    }
+                    @media only screen and (max-width:600px) {
+                      html {
+                        height: 2400px;
+                    }
+                    body {
+                        height: 1700px;
+                    }
+                      .menunav {
+                          visibility: visible;
+                          height: 8%;
+                      }
+                        .banner{
+                          height: 19%;
+                          margin-top: 17.5%;
+                          }
+                          .theme{
+                            height: 22%;
+                          }
+                          .footerr{
+                            height: 68%;
+                          }
+                          .com1 {
+                            height: 200px;
+                          }
+                          .com2 {
+                            height: 210px;
+                          }
+                          #orangepink {
+                            margin-top: 83%;
+                          }
+                      }
+                      @media only screen and (max-width:550px) {
+                        html {
+                          height: 2200px;
+                      }
+                      body {
+                          height: 1500px;
+                      }
+                        .menunav {
+                            visibility: visible;
+                            height: 8%;
+                        }
+                          .banner{
+                            height: 20%;
+                            margin-top: 19.5%;
+                            }
+                            .theme{
+                              height: 22%;
+                            }
+                            .footerr{
+                              height: 68%;
+                            }
+                            .com1 {
+                              height: 210px;
+                            }
+                            .com2 {
+                              height: 210px;
+                            }
+                            #orangepink {
+                              margin-top: 87%;
+                            }
+                            footer {
+                              margin-top: 45%;
+                            }
+                        }
+  
