@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="286" height="49" viewBox="0 0 286 49">
+  <g id="Group_99" data-name="Group 99" transform="translate(-1207 -638)">
+    <g id="Important_dates" data-name="Important dates" transform="translate(1207 638)">
+      <text id="OCT" transform="translate(0 45)" fill="#fff" font-size="14" font-family="OpenSans-SemiBold, Open Sans" font-weight="600"><tspan x="0" y="0">OCT</tspan></text>
+      <text id="_16" data-name="16" transform="translate(0 26)" fill="#fff" font-size="24" font-family="OpenSans-SemiBold, Open Sans" font-weight="600"><tspan x="0" y="0">16</tspan></text>
+      <text id="_15" data-name="15" transform="translate(64 26)" fill="#fff" font-size="24" font-family="OpenSans-SemiBold, Open Sans" font-weight="600"><tspan x="0" y="0">15</tspan></text>
+      <text id="NOV" transform="translate(62 45)" fill="#fff" font-size="14" font-family="OpenSans-SemiBold, Open Sans" font-weight="600"><tspan x="0" y="0">NOV</tspan></text>
+      <g id="arrow-right" transform="translate(39 17)">
+        <line id="Line_8" data-name="Line 8" x1="12" transform="translate(0 5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Line_9" data-name="Line 9" x1="4" y2="5" transform="translate(8 5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Line_10" data-name="Line 10" x1="4" y1="5" transform="translate(8)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+    <text id="Regular_Registration" data-name="Regular Registration" transform="translate(1493 667)" fill="#fff" font-size="14" font-family="SourceCodePro-Regular, Source Code Pro"><tspan x="-168" y="0">Regular Registration</tspan></text>
+  </g>
+</svg>
